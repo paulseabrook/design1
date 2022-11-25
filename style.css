@@ -1,0 +1,117 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: rgba(53, 53, 106, 0.888);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  /* space evenly or around for narrow, space-between for wide */
+  justify-content: space-between;
+  flex: 1;
+}
+
+.left-links {
+  display: flex;
+  color: #f9faf8;
+  align-items: center;
+}
+
+a {
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+/* a:link {
+  text-decoration: none;
+} */
+
+.headerLink {
+  margin: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  color: #f9faf8;
+}
+
+h3 {
+  color: #f9faf8;
+  font-size: 24px;
+  margin: 15px;
+}
+
+.headerCard {
+  min-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.7;
+  flex-direction: row;
+  justify-content: left;
+  padding: 150px;
+}
+
+#signUpButton {
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+p {
+  color: #f9faf8;
+}
+
+#heroImage {
+  background-color: grey;
+  color: #f9faf8;
+  /* remember min-width when troubleshooting hero layouts and cards */
+  min-width: 550px;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.randomInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+#randomHeader {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+}
+
+.randomContentParent {
+  display: flex;
+  padding: 100px 150px 100px 150px;
+}
+
+.randomContentChild {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100;
+}
+
+/* The color for the button that we will use for the call to action is rgb(0, 98, 204) */
+
+.randomImage {
+  border: solid rgb(0, 98, 204) 2px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.randomPara {
+  color: black;
+}
